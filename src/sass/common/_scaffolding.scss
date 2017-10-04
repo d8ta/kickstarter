@@ -1,0 +1,15 @@
+html {
+	font-size: $font-size-base * .5;
+
+	@include mq($from: screen-sm){font-size: $font-size-base * .75;}
+	@include mq($from: screen-md){font-size: $font-size-base;}
+	@include mq($from: screen-lg){font-size: $font-size-base * 1.25;}
+}
+
+body {
+
+	font-size: $font-size-base * .875;
+
+	@include mq($from: screen-md){font-size: $font-size-base;}
+	@include mq($from: screen-lg){font-size: $font-size-base * 1.125;}
+}

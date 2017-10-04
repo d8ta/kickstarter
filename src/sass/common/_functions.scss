@@ -1,0 +1,8 @@
+@function getColor($color) {
+  @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);  
+  }
+   
+  @warn "The key #{$color} is not in the map ’$colors’";
+  @return null;
+};

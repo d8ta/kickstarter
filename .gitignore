@@ -1,0 +1,7 @@
+.DS_STORE
+.vagrant
+
+/node_modules/
+bower_components/
+
+/htdocs/assets/
